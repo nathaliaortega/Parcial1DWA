@@ -98,9 +98,6 @@ body{
   grid-row-start: 4;
   grid-column-start:2;
   grid-column-end:4;
-
-  
-
 }
 .img-parisTexas
 {
@@ -111,8 +108,7 @@ body{
 {
   grid-column: span 4; 
   grid-row-start: 5;
-  grid-column-start:3;
-  
+  grid-column-start:3;  
 
 }
 
