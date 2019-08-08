@@ -1,0 +1,38 @@
+*,
+*:before,
+*:after{
+  box-sizing:border-box;
+}
+body{
+  background-color: #CCCCCC;
+}
+.main{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows:8em 1fr 1fr;
+}
+.main-title{
+  color:white;
+  padding:0.5em 4em 0em 4em;
+  font-style:italic;
+  text-align: end;
+  grid-column: span 2;  
+}
+.main-header{
+  text-transform: uppercase;
+  grid-column: span 2;
+  
+  
+}
+.main-header-nav{
+  width: 100%;
+}
+.main-header-nav .main-menu{
+  list-style:none;
+  display: flex; 
+}
+.main-menu__link{
+  color:#525659;
+  text-decoration: none;
+  padding-left:1.5em;
+}
